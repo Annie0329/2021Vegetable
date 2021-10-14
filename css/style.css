@@ -1,0 +1,103 @@
+/* 文件裡有很多尺寸不一的地方，我是以PS檔裡的尺寸為準*/
+/* 對，以PS檔為準 */
+/* *{
+    box-sizing: border-box;
+  } */
+  /* 背景  */
+html {
+    width: 1260px;/*還是1264？ */
+    height: 880px;
+    background-color: #EDF2C5;
+}
+body{
+    font-family: "Arial Black";
+}
+
+/* 大標 */
+
+.header{
+    display: flex;
+}
+.header-title{
+
+font-size: 44px;/*還是36px？？*/
+color: #778A50;
+}
+.vegBar{
+    
+    font-size:  16px;
+    line-height: 16px;
+    color: #EDF2C5;
+    background-color:#778A50 ;
+    border-radius: 3px;
+}
+
+/* 導覽列 */
+.nav{
+    background-color: #778A50;
+    width: 940px;
+    height: 44px;
+    border-radius: 3px;
+}
+.nav-list{
+    display:flex;  
+}
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    display:block;
+    color: #EDF2C5;
+    text-decoration:none;
+    margin-right:30px;
+    margin-left:30px;
+}
+
+.area{
+    display:flex;
+}
+
+.smlBar{
+    width: 445px;
+    height:45px;
+    padding-left: 30px;  
+}
+.veg{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contact{
+    padding-top:17px;
+    padding-bottom: 16px;
+}
+.textBtn{
+    height: 25px;    
+    font-size: 14px;/*還是12pt？*/
+    color:#778A50;
+    border:1px solid #778A50 ;
+    border-radius: 3px;
+    background-color: #EDF2C5;
+}
+.login{
+    width: 60px;
+}
+.join{
+    width:50px;
+}
+.conText{ 
+    color: #7d7d7d;
+    background-color: #F7FBDA;
+}
+
+.sml{
+    font-family: "ArialMT Regular";
+    font-size: 12px;
+}
+
+.copyR{
+    width: 1260px;
+    height: 60px;
+    background-color: #778A50;
+    color:#EDF2C5;
+}
