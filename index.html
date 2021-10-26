@@ -3,72 +3,79 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Vegetables</title>
+    <title>107840001</title>
     <!-- 建議用normalize -->
     <link rel="stylesheet" href=".css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <!-- 標題和連結們 -->
-    <header class="header">
-        <h1 class="header-title">Vegetables</h1>
-        <img src="./images/btn_facebook.png" alt="facebook">
-        <img src="./images/btn_instagram.png" alt="instagram">
-        <a href="#" class="textBtn login">LOGIN</a>
-        <a href="#" class="textBtn join">JOIN</a>
+    <div class="bg">
+        <!-- 標題和連結們 -->
+        <header class="header">
+            <h1 class="header-title">Vegetables</h1>
+            <img class="header-image" src="./images/btn_facebook.png" alt="facebook">
+            <img class="header-image" src="./images/btn_instagram.png" alt="instagram">
+            <div class="header-line"></div>
+            <a href="#" class="header-btn login">LOGIN</a>
+            <a href="#" class="header-btn join">JOIN</a>
+        </header>
 
-    </header>
+        <!-- 導覽列 -->
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Vegetables</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Online</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
 
-    <!-- 導覽列 -->
-    <nav class="nav">
-        <ul class="nav-list">
-            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Vegetables</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Online</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-
-        </ul>
-    </nav>
-
-    <!-- 形象照片 -->
-    <article>
-        <img src="./images/img_main_pumpkin.png" alt="">
-    </article>
-
-    <!-- 底下兩列 -->
-    <div class=area>
-        <!-- 小蔬菜們的照片 -->
+        <!-- 形象照片 -->
         <article>
-            <h2 class="vegBar smlBar veg">Vegetables</h2>
-            <img src="./images/img_vegetables_pepper.png" alt="">
-            <img src="./images/img_vegetables_carrot.png" alt="">
-            <img src="./images/img_vegetables_corn.png" alt="">
+            <img class="bigPic" src="./images/img_main_pumpkin.png" alt="">
         </article>
 
-        <!-- 聯絡辦法 -->
-        <article>
-            <h2 class="vegBar smlBar contact">Contact</h2>
-            <div class="conText sml">
-                <p>For any questions or suggestions about
-                    Vegetables, Vegetables Club or your
-                    online order you can contact Vegetables
-                    Customer Service by phone, email or post
-                    and we’ll be happy to help.</p>
-                <p>E-mail : Vegetables@aaabbccc.com</p>
-                <br>
-                <p>PHONE : +886-123-456-789</p>
-            </div>
+        <!-- 底下兩列 -->
+        <article class="article-all">
+
+            <!-- 小蔬菜們的照片 -->
+            <article>
+                <h2 class="article-bar">Vegetables</h2>
+                <div class="vegetables-pic">
+                    <img src="./images/img_vegetables_pepper.png" alt="">
+                    <img src="./images/img_vegetables_carrot.png" alt="">
+                    <img src="./images/img_vegetables_corn.png" alt="">
+                </div>
+            </article>
+
+            <!-- 聯絡辦法 -->
+            <article>
+                <h2 class="article-bar">Contact</h2>
+                <div class="contact-box">
+                    <p class="contact-one">For any questions or suggestions about
+                        Vegetables, Vegetables Club or your
+                        online order you can contact Vegetables
+                        Customer Service by phone, email or post
+                        and we’ll be happy to help.</p>
+                    <div class="contact-line"></div>
+                    <p class="contact-two">E-mail : Vegetables@aaabbccc.com
+                        <br>
+                        PHONE : +886-123-456-789
+                    </p>
+                </div>
+            </article>
+
         </article>
     </div>
 
-
     <!-- 版權之類的 -->
-    <footer class="copyR sml">
-        <p>Copyrights 2017 Vegetables cise /
+    <footer class="footer">
+        <p class="footer-copyrights">Copyrights 2017 Vegetables cise /
             Design by Vegetables</p>
     </footer>
+
 </body>
 
 </html>

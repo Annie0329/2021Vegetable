@@ -1,103 +1,161 @@
-/* 文件裡有很多尺寸不一的地方，我是以PS檔裡的尺寸為準*/
-/* 對，以PS檔為準 */
-/* *{
+/* 全體版 */
+* {
     box-sizing: border-box;
-  } */
-  /* 背景  */
-html {
-    width: 1260px;/*還是1264？ */
-    height: 880px;
-    background-color: #EDF2C5;
+    margin: 0px;
+    padding: 0;
 }
-body{
+
+/* 背景  */
+html,
+body {
+    width: 1260px;
+    height: 880px;
     font-family: "Arial Black";
 }
 
-/* 大標 */
+.bg {
+    width: 1260px;
+    height: 880px;
+    background-color: #EDF2C5;
+    padding: 36px 160px 35px;
+}
 
-.header{
+/* 頭 */
+.header {
     display: flex;
+    padding-bottom: 5px;
 }
-.header-title{
 
-font-size: 44px;/*還是36px？？*/
-color: #778A50;
+/* 大標 */
+.header-title {
+    margin-right: 464px;
+    font-size: 44px;
+    color: #778A50;
 }
-.vegBar{
-    
-    font-size:  16px;
-    line-height: 16px;
-    color: #EDF2C5;
-    background-color:#778A50 ;
+
+/* 臉書跟IG */
+.header-image {
+    width: 25px;
+    height: 25px;
+    margin: 24px 5px 13px;
+}
+
+.header-line {
+    width: 1px;
+    height: 25px;
+    background-color: #778a50;
+    margin: 24px 5px 13px;
+}
+
+/* 按鈕們 */
+.header-btn {
+    height: 25px;
+    font-size: 14px;
+    color: #778A50;
+    background-color: #EDF2C5;
+
+    border: 1px solid #778A50;
     border-radius: 3px;
+
+    text-decoration: none;
+    text-align: center;
+}
+
+.login {
+    width: 60px;
+    margin: 24px 5px 13px;
+}
+
+.join {
+    width: 50px;
+    margin: 24px 0px 13px 5px;
 }
 
 /* 導覽列 */
-.nav{
+.nav-list {
     background-color: #778A50;
     width: 940px;
     height: 44px;
     border-radius: 3px;
+    display: flex;
 }
-.nav-list{
-    display:flex;  
-}
-.nav-item{
+
+.nav-item {
     list-style: none;
 }
-.nav-link{
-    display:block;
+
+.nav-link {
+    display: block;
+    font-size: 16px;
     color: #EDF2C5;
-    text-decoration:none;
-    margin-right:30px;
-    margin-left:30px;
+    margin: 10px 30px 11px;
+    text-decoration: none;
 }
 
-.area{
-    display:flex;
+/* 大蔬菜的照片 */
+.bigPic {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
-.smlBar{
+/* 底下兩列 */
+.article-all {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 扛棒 */
+.article-bar {
     width: 445px;
-    height:45px;
-    padding-left: 30px;  
-}
-.veg{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    height: 45px;
+    font-size: 16px;
+    color: #EDF2C5;
+    background-color: #778A50;
+    border-radius: 3px;
+    padding: 10px 30px 12px;
+    margin-bottom: 15px;
 }
 
-.contact{
-    padding-top:17px;
-    padding-bottom: 16px;
+/* 小蔬菜的照片 */
+.vegetables-pic {
+    display: flex;
+    justify-content: space-between;
 }
-.textBtn{
-    height: 25px;    
-    font-size: 14px;/*還是12pt？*/
-    color:#778A50;
-    border:1px solid #778A50 ;
-    border-radius: 3px;
-    background-color: #EDF2C5;
-}
-.login{
-    width: 60px;
-}
-.join{
-    width:50px;
-}
-.conText{ 
+
+/* 聯絡方式 */
+.contact-box {
+    width: 445px;
+    height: 140px;
+    font-size: 12px;
+    font-family: "Arial";
     color: #7d7d7d;
     background-color: #F7FBDA;
+    padding: 15px;
 }
 
-.sml{
-    font-family: "ArialMT Regular";
-    font-size: 12px;
+.contact-one {
+    line-height: 1.25;
 }
 
-.copyR{
+.contact-line {
+    width: 414px;
+    height: 1px;
+    background-color: #7d7d7d;
+    margin: 15px 0px;
+}
+
+.contact-two {
+    line-height: 1.75;
+}
+
+/* 腳 */
+.footer-copyrights {
     width: 1260px;
     height: 60px;
+    font-size: 12px;
+    font-family: "Arial";
+    color: #EDF2C5;
     background-color: #778A50;
-    color:#EDF2C5;
+    padding: 23px 479px;
 }
