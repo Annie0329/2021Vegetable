@@ -1,81 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>107840001</title>
-    <!-- 建議用normalize -->
-    <link rel="stylesheet" href=".css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>迪拜島大冒險</title>
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="bg">
-        <!-- 標題和連結們 -->
+    <div class="container">
         <header class="header">
-            <h1 class="header-title">Vegetables</h1>
-            <img class="header-image" src="./images/btn_facebook.png" alt="facebook">
-            <img class="header-image" src="./images/btn_instagram.png" alt="instagram">
-            <div class="header-line"></div>
-            <a href="#" class="header-btn login">LOGIN</a>
-            <a href="#" class="header-btn join">JOIN</a>
+
+            <a href="/index.html"><img class="header-logo" src=" /images/logo.png" alt="logo"> </a>
+
+            <div class="header-link">
+                <a class="header-link-enterPage" href="/team.html">團隊</a>
+                <a class="header-link-enterPage" href="/about.html">關於</a>
+                <a class="header-link-enterGame" href="https://annie0329.github.io/">進入遊戲</a>
+            </div>
         </header>
+        <div class="cover">
+            <div class="cover-des">
+                <h1 class="index-title">迪拜島大冒險</h1>
+                <p class="text">DeFi主題的RPG遊戲</p>
+            </div>
 
-        <!-- 導覽列 -->
-        <nav>
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Vegetables</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Online</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
+            <img class="cover-img" src="/images/cover.png" alt="cover">
+        </div>
 
-        <!-- 形象照片 -->
-        <article>
-            <img class="bigPic" src="./images/img_main_pumpkin.png" alt="">
-        </article>
-
-        <!-- 底下兩列 -->
-        <article class="article-all">
-
-            <!-- 小蔬菜們的照片 -->
-            <article>
-                <h2 class="article-bar">Vegetables</h2>
-                <div class="vegetables-pic">
-                    <img src="./images/img_vegetables_pepper.png" alt="">
-                    <img src="./images/img_vegetables_carrot.png" alt="">
-                    <img src="./images/img_vegetables_corn.png" alt="">
-                </div>
-            </article>
-
-            <!-- 聯絡辦法 -->
-            <article>
-                <h2 class="article-bar">Contact</h2>
-                <div class="contact-box">
-                    <p class="contact-one">For any questions or suggestions about
-                        Vegetables, Vegetables Club or your
-                        online order you can contact Vegetables
-                        Customer Service by phone, email or post
-                        and we’ll be happy to help.</p>
-                    <div class="contact-line"></div>
-                    <p class="contact-two">E-mail : Vegetables@aaabbccc.com
-                        <br>
-                        PHONE : +886-123-456-789
-                    </p>
-                </div>
-            </article>
-
-        </article>
+        <footer class="footer">
+            <div class="footer-media">
+                <a href="#"><img class="footer-media-img" src="/images/github.svg" alt=""></a>
+                <a href="#"><img class="footer-media-img" src="/images/twitter.svg" alt=""></a>
+                <a href="#"><img class="footer-media-img" src="/images/behance.svg" alt=""></a>
+                <a href="#"><img class="footer-media-img" src="/images/medium.svg" alt=""></a>
+            </div>
+            <p class="footer-copyrights">&copy;2021. All right reserved</p>
+        </footer>
     </div>
-
-    <!-- 版權之類的 -->
-    <footer class="footer">
-        <p class="footer-copyrights">Copyrights 2017 Vegetables cise /
-            Design by Vegetables</p>
-    </footer>
-
 </body>
 
 </html>
